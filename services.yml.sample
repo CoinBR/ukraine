@@ -1,0 +1,17 @@
+services:
+  - title: Code Challenge Generator
+    url: https://www.pudim.com.br/
+
+  - title: Nested Sample
+    nested:
+      - title: Pudim
+        url: https://www.pudim.com.br/
+        totpSecret: BRIURZHELAVEWFUAXLDREMZGIJIYLUDL
+
+      - title: Sobremesa
+        url: https://www.pudim.com.br/
+        totpSecret: BRIURZHELAVEWFUAXLDREMZGIJIYLUDL
+
+      - title: Doce
+        url: https://www.pudim.com.br/
+
