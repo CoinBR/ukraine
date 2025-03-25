@@ -11,12 +11,13 @@ setup() {
   echo "Navigating to root directory..."
   cd "$DIR"
 
+  create_missing_config_files_from_sample
+
   echo "Loading environment variables..."
   . ./.env
 
   kill_port $UI_PORT $API_PORT
 
-  create_missing_config_files_from_sample
 
   try_copy_to_child_project ui submodules
   try_copy_to_child_project ui .env
